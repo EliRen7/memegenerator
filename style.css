@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+body{
+    position: relative;
+    background-image: url(imgs/yellowandpink.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Josefin Sans' ;
+    color: rgb(43, 224, 200);
+    font-size: 2.5rem;
+}
+
+.container{
+    color: rgb(15, 11, 5);
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+.meme{
+    position: relative;
+}
+
+
+.meme-generator{
+    margin: 20px auto;
+    width: 400px;
+    font-family: sans-serif;
+    background-color: rgb(124, 84, 187);
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+}
+
+
+.meme-generator label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.meme-generator input{
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 40rem;
+    height: 27rem;
+    position: relative;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 31rem;
+    top: 25rem;
+}
+
+.secondIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 47rem;
+    top: 25rem;
+}
+
+
+.submit:hover{
+    color: rgb(70, 141, 141);
+}
+
+
+.topText{
+    position: absolute;
+    font-family: sans-serif;
+    top: 0px;
+    left: 5rem;
+    color: white;
+    font-size: 6rem;
+    font-weight: 3rem;
+    -webkit-text-stroke: 5px black;
+}
+
+.bottomText{
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 0px;
+    left: 5rem; 
+    color: white;
+    font-size: 6rem;
+    font-weight: 3rem;
+    -webkit-text-stroke: 5px black;
+
+}

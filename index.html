@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memegenerator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div class="meme-generator">
+        <h1>Meme Generator</h1>
+        <form action="#" class="container">
+            <label>Enter image URL</label>
+            <input id="url" type="text" name="url" placeholder="Enter image URL" required onfocus="this.value=''"><br>
+            <label>Enter top text</label>
+            <input type="text" class="toptext" name="toptext"placeholder="Enter top image text" required onfocus="this.value=''"><br>
+            <label>Enter bottom text</label>
+            <input type="text" class="bottomtext" name="bottomtext" placeholder="Enter bottom image text" required onfocus="this.value=''"><br>
+            <input type="submit" class="submit">
+            <img src="imgs/double-click.png" alt="" class="icon">
+            <img src="imgs/double-click.png" alt="" class="secondIcon">
+            <p>Double click image to delete</p>
+        </form>
+    </div>
+
+    <script src="memegenerator.js"></script>
+</body>
+</html>
+
+ 
