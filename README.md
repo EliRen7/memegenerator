@@ -1,6 +1,6 @@
 # Meme Generator
 
-![Project Banner](/imgs/)
+![Project Banner](/imgs/meme.png)
 
 This is a meme generator web application that allows users to create memes by adding an image URL, upper text, and bottom text. Users can also delete an image by double-clicking on it.
 
@@ -27,8 +27,8 @@ Users can delete an image by double-clicking on it. This feature provides a conv
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/meme-generator.git`
-2. Navigate to the project directory: `cd meme-generator`
+1. Clone the repository: `git clone https://github.com/EliRen7/memegenerator.git`
+2. Navigate to the project directory: `cd memegenerator`
 3. Open the `index.html` file in your web browser.
 
 ## Usage
@@ -47,6 +47,3 @@ Contributions are welcome! If you find any issues or want to enhance the project
 3. Make your improvements and commit changes.
 4. Push the branch and open a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
